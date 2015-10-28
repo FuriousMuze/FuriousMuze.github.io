@@ -42,4 +42,6 @@ p {
 	font-weight: 300;
 	color: #f1c40f;
 	background-image: url("../images/coachella-ferris-wheel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
