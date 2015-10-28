@@ -1,0 +1,45 @@
+* { margin:0; padding:0; /*box-sizing:border-box; border:1px solid red;*/ }
+
+section {
+	padding:4em 0;
+}
+h1 {
+	font-size: 45px;
+	text-align: center;
+	color: #f1c40f;
+	font-family: 'Shadows Into Light', cursive;
+}
+p {
+	font-size: 18px;
+}
+#splash {
+	background-image: url("../images/Coachella.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:75vh;
+}
+#slogan {
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	color: #f1c40f;
+	font-family: 'Shadows Into Light', cursive;
+}
+#about {
+	background-image: url("../images/do-lab.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #ffffff
+}
+#center {
+	font-weight: 300;
+	text-align: center;
+}
+#contact {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #f1c40f;
+	background-image: url("../images/coachella-ferris-wheel.jpg");
+}

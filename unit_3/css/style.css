@@ -1,4 +1,4 @@
-* { margin:0; padding:0; box-sizing:border-box; border:1px solid red; }
+* { margin:0; padding:0; /*box-sizing:border-box; border:1px solid red;*/ }
 body {
 	color: #f1c40f;
 	text-align: center;
@@ -19,7 +19,7 @@ p {
 	text-align: left;
 }
 #splash {
-	background-image: url("https://yovigo.com/news/wp-content/uploads/2014/04/Coachella_Night_Pano_2-FINAL_Flat.jpg");
+	background-image: url("../images/Coachella.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	height:75vh;
