@@ -1,5 +1,14 @@
 * { margin:0; padding:0; /*box-sizing:border-box; border:1px solid red;*/ }
-
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
 section {
 	padding:4em 0;
 }
@@ -31,7 +40,11 @@ p {
 	background-size: cover;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
-	color: #ffffff
+	color: #ffffff;
+	background-color: #E89C6C;
+  border: 1px black solid;
+  padding: 20px;
+
 }
 #center {
 	font-weight: 300;
@@ -44,4 +57,12 @@ p {
 	background-image: url("../images/coachella-ferris-wheel.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
+}
+#wrapper {
+	background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
 }
