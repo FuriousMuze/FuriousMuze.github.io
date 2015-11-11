@@ -22,8 +22,8 @@ p {
 	font-size: 18px;
 }
 #splash {
-/*	background-image: url("../images/Coachella.jpg");
-*/	background-repeat: no-repeat;
+	background-image: url("../images/Coachella.jpg");
+	background-repeat: no-repeat;
 	background-size:cover;
 	height:75vh;
 }
@@ -35,8 +35,6 @@ p {
 	font-family: 'Shadows Into Light', cursive;
 }
 #about {
-/*	background-image: url("../images/do-lab.jpg");
-*/	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
@@ -44,7 +42,9 @@ p {
 	background-color: #E89C6C;
   border: 1px black solid;
   padding: 20px;
-
+}
+#about li {
+	list-style-type: none;
 }
 #center {
 	font-weight: 300;
@@ -54,8 +54,6 @@ p {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	color: #f1c40f;
-/*	background-image: url("../images/coachella-ferris-wheel.jpg");
-*/	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #FF957E;
   border: 1px black solid;
@@ -65,4 +63,31 @@ p {
 	background-color: #FFE2B8;
   border: 1px black solid;
   padding: 20px;
+}
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
